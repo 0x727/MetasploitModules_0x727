@@ -41,8 +41,8 @@ $ git clone https://github.com/0x727/MetasploitModules_0x727.git
 
 ```
 msf6 > loadpath /Users/username/0x727/Metasploit_0x727
-Loaded 12 modules:
-    7 post modules
+Loaded 13 modules:
+    8 post modules
     1 exploit modules
     4 auxiliary modules
 msf6 >
@@ -171,6 +171,14 @@ msf5 > sessions -C "run post/windows/gather/collect migrate=true"
 **2021/07/26**
 
 解析Microsoft SQL Server Management Studio管理器的SqlStudio.bin文件，解密获取mssql连接密码。
+
+### foxmail
+
+**2021/08/06**
+
+[Gather foxmail password](https://github.com/rapid7/metasploit-framework/pull/14218)
+
+获取Foxmail邮件客户端的密码信息。
 
 ## 为 Metasploit Modules 做贡献
 
